@@ -1,0 +1,10 @@
+SQL> CREATE TABLE my_employee
+  2  (id NUMBER(4) CONSTRAINT my_employee_id_nn NOT NULL,
+  3  last_name VARCHAR2(25),
+  4  first_name VARCHAR2(25),
+  5  userid VARCHAR2(8),
+  6  salary NUMBER(9,2));
+
+Table created.
+
+SQL> spool off

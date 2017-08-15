@@ -1,0 +1,13 @@
+SQL> CREATE TABLE dept
+  2  (id NUMBER(7) PRIMARY KEY,
+  3  name VARCHAR2(25));
+
+Table created.
+
+SQL> DESCRIBE dept;
+ Name                                      Null?    Type
+ ----------------------------------------- -------- ----------------------------
+ ID                                        NOT NULL NUMBER(7)
+ NAME                                               VARCHAR2(25)
+
+SQL> spool off

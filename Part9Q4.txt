@@ -1,0 +1,6 @@
+SQL> CREATE TABLE employees2 AS
+  2  SELECT employee_id AS "id", first_name, last_name, salary, department_id AS "dept_id" FROM employees;
+
+Table created.
+
+SQL> spool off

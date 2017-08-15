@@ -1,0 +1,6 @@
+SQL> CREATE VIEW dept50 AS
+  2  SELECT employee_id AS "empno", last_name AS "employee", department_id AS "deptno" FROM employees WHERE department_id = 50 WITH CHECK OPTION CONSTRAINT emp_dept_50;
+
+View created.
+
+SQL> spool off

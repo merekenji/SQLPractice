@@ -1,0 +1,8 @@
+SQL> UPDATE dept50 SET "deptno" = 80 WHERE "employee" = 'Matos';
+UPDATE dept50 SET "deptno" = 80 WHERE "employee" = 'Matos'
+       *
+ERROR at line 1:
+ORA-01402: view WITH CHECK OPTION where-clause violation 
+
+
+SQL> spool off
